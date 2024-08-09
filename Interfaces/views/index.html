@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .btn-custom {
+            width: 250px;
+            padding: 15px 20px;
+            color: white;
+            opacity: 0.9;
+        }
+        .btn-personas {
+            background-color: rgba(255, 183, 77, 0.8); /* Naranja cálido */
+        }
+        .btn-deportes {
+            background-color: rgba(102, 187, 106, 0.8); /* Verde cálido */
+        }
+        .btn-ciudades {
+            background-color: rgba(77, 182, 172, 0.8); /* Azul cálido */
+        }
+        .btn-cargos {
+            background-color: rgba(255, 138, 128, 0.8); /* Rosa cálido */
+        }
+        .list-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">PÁGINA PRINCIPAL</h1>
+        <div class="list-group"> 
+            <!-- Enlaces a páginas html como botones -->
+            <a href="/views/personas/personas.html" class="btn btn-custom btn-personas mb-3">Ir a Personas</a>
+            <a href="/views/deportes/deportes.html" class="btn btn-custom btn-deportes mb-3">Ir a Deportes</a>
+            <a href="/views/ciudades/ciudades.html" class="btn btn-custom btn-ciudades mb-3">Ir a Ciudades</a>
+            <a href="/views/cargos/cargos.html" class="btn btn-custom btn-cargos mb-3">Ir a Cargos</a>
+        </div>
+    </div>
+</body>
+</html>
